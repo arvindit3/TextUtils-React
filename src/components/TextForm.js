@@ -64,7 +64,7 @@ export default function TextForm(props) {
         <p>{0.008  * text.split(" ").filter((element)=>{return element.length!==0}).length} minutes to read</p>
         <p>Emails in entered string : {extractEmails(text)}</p>
         <h2>Preview</h2>
-        <p>{text.length>0?text:'Nothing to preview here'}</p>
+        <p>{text.length>0?text:'Nothing to preview here!'}</p>
         
     </div>
     {/*<ColorPallet/> */}
